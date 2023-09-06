@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- accessibilityEventTypes 无障碍服务监听的事件类型  typeAllMask 所有事件 -->
+<!-- 更多属性的含义 https://developer.android.com/guide/topics/ui/accessibility/service?hl=zh-cn#service-config -->
+<accessibility-service xmlns:android="http://schemas.android.com/apk/res/android"
+    android:description="谢俊彦的无障碍配置文件"
+    android:accessibilityEventTypes="typeAllMask"
+    android:accessibilityFlags="flagIncludeNotImportantViews"
+    android:accessibilityFeedbackType="feedbackAllMask"
+    android:notificationTimeout="100"
+    android:canRetrieveWindowContent="true"
+    android:settingsActivity="com.sjy.accessibility.AccessibilitySettingActivity"
+    />

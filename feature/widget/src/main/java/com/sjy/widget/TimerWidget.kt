@@ -29,6 +29,7 @@ class TimerWidget: GlanceAppWidget() {
     override suspend fun provideGlance(context: Context, id: GlanceId) {
         provideContent {
             GlanceTheme(colors = ColorProviders(LightColors, DarkColors)) {
+                // TODO 2023/9/6 用cornerRadius设置圆角只在12+有效
                 Box (modifier = GlanceModifier.fillMaxSize().background(color = MaterialTheme.colorScheme.background).cornerRadius(15.dp)){
                     Text(text = "This is a Widget", modifier = GlanceModifier.padding(20.dp))
                 }

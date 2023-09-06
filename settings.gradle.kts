@@ -18,3 +18,4 @@ rootProject.name = "Every"
 include(":app")
 include(":feature:widget")
 include(":core:design")
+include(":feature:accessibility")
