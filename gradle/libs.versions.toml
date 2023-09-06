@@ -56,6 +56,7 @@ androidxHiltNavigationCompose = "1.0.0"
 protobuf = "3.23.0"
 protobufPlugin = "0.9.3"
 recyclerview = "1.2.1"
+glance = "1.0.0-rc01"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -118,6 +119,9 @@ youtube = { group = "com.google.apis", name = "google-api-services-youtube", ver
 eventbus = { group = "org.greenrobot", name = "eventbus", version.ref = "eventbus" }
 protobuf-kotlin-lite = { group = "com.google.protobuf", name = "protobuf-kotlin-lite", version.ref = "protobuf" }
 protobuf-protoc = { group = "com.google.protobuf", name = "protoc", version.ref = "protobuf" }
+glance-appwidget = { group = "androidx.glance", name = "glance-appwidget", version.ref = "glance" }
+glance-material3 = { group = "androidx.glance", name = "glance-material3", version.ref = "glance" }
+
 # hollyland
 hollyland-loggable = { group = "com.hollyland.library", name = "loggable", version.ref = "hollylandLoggable" }
 hollyland-frameworks-app-utils = { group = "com.hollyland", name = "hollyland-app-frameworks-utils", version.ref = "hollylandFrameworksAppUtils" }
@@ -174,6 +178,7 @@ ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 protobuf = { id = "com.google.protobuf", version.ref = "protobufPlugin" }
+com-android-library = { id = "com.android.library", version.ref = "agp" }
 
 [bundles]
 

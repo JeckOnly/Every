@@ -26,6 +26,6 @@ android {
 }
 
 dependencies {
-
+    implementation(project(":feature:widget"))
 
 }
