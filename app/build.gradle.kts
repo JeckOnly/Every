@@ -23,9 +23,14 @@ android {
             )
         }
     }
+
+    buildFeatures {
+        buildConfig = true
+    }
 }
 
 dependencies {
     implementation(project(":feature:widget"))
-
+    implementation(project(":core:util"))
+    implementation(project(":core:design"))
 }

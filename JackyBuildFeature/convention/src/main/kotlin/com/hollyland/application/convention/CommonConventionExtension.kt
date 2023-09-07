@@ -63,6 +63,7 @@ internal fun <T : CommonExtension<*, *, *, *>> Project.configureCommonFeature(co
             implementation(libs, "constraintlayout")
             implementation(libs, "coroutines.android")
             implementation(libs, "coroutines.core")
+            implementation(libs, "timber")
             testImplementation(libs, "junit")
             androidTestImplementation(libs, "androidx.test.ext.junit")
             androidTestImplementation(libs, "espresso.core")

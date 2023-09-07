@@ -8,6 +8,5 @@ android {
 }
 
 dependencies {
-    implementation(libs.glance.appwidget)
-    implementation(libs.glance.material3)
+
 }

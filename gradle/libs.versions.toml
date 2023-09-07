@@ -57,6 +57,7 @@ protobuf = "3.23.0"
 protobufPlugin = "0.9.3"
 recyclerview = "1.2.1"
 glance = "1.0.0-rc01"
+timber = "5.0.1"
 
 [libraries]
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -121,6 +122,7 @@ protobuf-kotlin-lite = { group = "com.google.protobuf", name = "protobuf-kotlin-
 protobuf-protoc = { group = "com.google.protobuf", name = "protoc", version.ref = "protobuf" }
 glance-appwidget = { group = "androidx.glance", name = "glance-appwidget", version.ref = "glance" }
 glance-material3 = { group = "androidx.glance", name = "glance-material3", version.ref = "glance" }
+timber = { group = "com.jakewharton.timber", name = "timber", version.ref = "timber" }
 
 # hollyland
 hollyland-loggable = { group = "com.hollyland.library", name = "loggable", version.ref = "hollylandLoggable" }
