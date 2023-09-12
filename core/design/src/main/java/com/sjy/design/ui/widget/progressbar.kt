@@ -33,6 +33,7 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import timber.log.Timber
+import java.math.RoundingMode
 import kotlin.math.roundToInt
 
 /**
@@ -93,7 +94,9 @@ fun BallProgressBar(
                             Timber.d("parent: $barWidth, ball: $ballWidth, result: $result")
                             offsetX = result
                             // 外部callback
-                            onProgressChange(result / (barWidth - ballWidth))
+                            val progress = result / (barWidth - ballWidth)
+                            val resultProgress = progress.toBigDecimal().setScale(2, RoundingMode.HALF_UP).toFloat()
+                            onProgressChange(resultProgress)
                         }
 
                     },
