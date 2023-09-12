@@ -65,6 +65,11 @@ gradlePlugin {
             id = "hollyland.library.compose.feature"
             implementationClass = "HollylandLibraryComposePlugin"
         }
+        // 注册Retrofit模块的插件
+        register("retrofit") {
+            id = "hollyland.retrofit.feature"
+            implementationClass = "HollylandRetrofitPlugin"
+        }
     }
 }
 
