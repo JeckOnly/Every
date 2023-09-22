@@ -23,6 +23,7 @@ class ExceptionCallAdapterFactory : CallAdapter.Factory() {
             return null
         }
 
+        // retrofit中adapter的列表，我们自定义的在前面，默认的添加在后面
         val delegate = retrofit.nextCallAdapter(this, returnType, annotations)
         @Suppress("UNCHECKED_CAST")
         return ExceptionCallAdapter(

@@ -32,6 +32,7 @@ android {
 dependencies {
     implementation(project(":feature:widget"))
     implementation(project(":feature:catfact"))
+    implementation(project(":feature:udp"))
     implementation(project(":core:util"))
     implementation(project(":core:design"))
 }
