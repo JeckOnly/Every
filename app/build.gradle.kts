@@ -35,4 +35,5 @@ dependencies {
     implementation(project(":feature:udp"))
     implementation(project(":core:util"))
     implementation(project(":core:design"))
+    implementation(project(":feature:viewentry"))
 }

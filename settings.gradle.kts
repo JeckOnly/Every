@@ -1,3 +1,5 @@
+import java.net.URI
+
 pluginManagement {
     includeBuild("JackyBuildFeature")
     repositories {
@@ -11,6 +13,8 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+        maven { url = URI("https://jitpack.io") }
+        maven { url = URI("https://maven.aliyun.com/repository/public") }
     }
 }
 
@@ -23,3 +27,4 @@ include(":core:util")
 include(":core:httpsdk")
 include(":feature:catfact")
 include(":feature:udp")
+include(":feature:viewentry")
