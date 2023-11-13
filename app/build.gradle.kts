@@ -36,4 +36,6 @@ dependencies {
     implementation(project(":core:util"))
     implementation(project(":core:design"))
     implementation(project(":feature:viewentry"))
+
+    implementation(project(":feature:aidlclient"))
 }

@@ -1,5 +1,11 @@
 import java.net.URI
 
+include(":feature:aidlclient")
+
+
+include(":feature:aidlserver")
+
+
 pluginManagement {
     includeBuild("JackyBuildFeature")
     repositories {
